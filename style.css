@@ -29,6 +29,7 @@ ul {
 
 .navbar-links a:hover {
   color: rgb(84, 95, 238);
+  /* cursor: pointer; */
 }
 
 .btn {
@@ -41,4 +42,67 @@ ul {
   font-weight: 600;
   cursor: pointer;
   border: none;
+}
+
+.btn2 {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.head-sect {
+  background-color: #1e2933;
+  background-image: url('../assets/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 674px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 0;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.head-container {
+  max-width: 900px;
+}
+
+.head-container p {
+  color: #CBD5E1;
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.head-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.early-open {
+  display: inline-block;
+  background-color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 6px 16px;
+  border-radius: 100px;
+  margin-bottom: 24px;
+  color: #15ff00;
 }
