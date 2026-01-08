@@ -179,3 +179,38 @@ h3 {
   background: rgba(249, 85, 85, 1);
 
 }
+
+
+.footer {
+    background-color: black;
+    /* width: 1600px; */
+    padding-bottom: 30px;
+    padding: 120px 120px 30px 120px;
+    color: white;
+    max-height: 348px;
+    /* margin-bottom: 30px;
+    margin:120px */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.social-links {
+    display: flex;
+    gap: 24px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #94A3B8;
+}
