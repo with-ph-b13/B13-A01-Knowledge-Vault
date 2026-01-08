@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  padding: 20px 0;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(53, 53, 53, 0.1);
+  padding: 16px 120px 16px 120px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 32px;
+}
+
+.navbar-links a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1f2937;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar-links a:hover {
+  color: rgb(84, 95, 238);
+}
+
+.btn {
+  color: white;
+  background-color: green;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
