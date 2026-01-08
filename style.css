@@ -1,3 +1,7 @@
+*{
+  font-family: "Inter", sans-serif;
+}
+
 .navbar {
   display: flex;
   padding: 20px 0;
@@ -103,6 +107,10 @@ ul {
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 6px 16px;
   border-radius: 100px;
-  margin-bottom: 24px;
+  margin-bottom: 14px;
   color: #15ff00;
+}
+
+h1 {
+   font-size: 72px;
 }
