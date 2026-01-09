@@ -51,10 +51,10 @@ ul {
 }
 
 .btn:hover{
-  color: green;
-  background-color: white;
+  color: rgb(79, 255, 79);
+  background-color: transparent;
   /* outline: green; */
-  border: 1px solid green;
+  border: 1px solid rgb(0, 255, 0);
 }
 
 .btn2 {
@@ -67,6 +67,13 @@ ul {
   border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
+}
+
+.btn2:hover{
+  color: white;
+  border: 1px solid white;
+  background-color: rgb(78, 151, 141);
+
 }
 
 .head-sect {
