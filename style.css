@@ -179,10 +179,13 @@ h3 {
   color: #1F2937;
   gap: 44;
   /* padding: 120px; */
-  padding-left: 120px;
-  padding-right: 120px;
-  margin-bottom: 0px;
-  padding-bottom: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 44;
+  padding: 120px;
+
 }
 
 .sect-header {
