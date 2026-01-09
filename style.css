@@ -82,7 +82,7 @@ ul {
 
 .head-sect {
   background-color: #1e2933;
-  background-image: url('../assets/hero-bg.png');
+  background-image: url('assets/hero-bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
