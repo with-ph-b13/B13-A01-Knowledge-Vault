@@ -50,6 +50,13 @@ ul {
   border: none;
 }
 
+.btn:hover{
+  color: green;
+  background-color: white;
+  /* outline: green; */
+  border: 1px solid green;
+}
+
 .btn2 {
   color: rgb(255, 255, 255);
   background-color: transparent;
